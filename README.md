@@ -10,9 +10,9 @@ Before Collection Framework (or before JDK 1.2) was introduced, the standard met
 #Example
 
 Declaration
-        -int arr[] = new int[] {1, 2, 3, 4}; 
-        -Vector<Integer> v = new Vector(); 
-        -Hashtable<Integer, String> h = new Hashtable(); 
+        - int arr[] = new int[] {1, 2, 3, 4}; 
+        - Vector<Integer> v = new Vector(); 
+        - Hashtable<Integer, String> h = new Hashtable(); 
         
 -Adding element
         v.addElement(1); 
