@@ -10,15 +10,15 @@ Before Collection Framework (or before JDK 1.2) was introduced, the standard met
 #Example
 
 Declaration
-        *int arr[] = new int[] {1, 2, 3, 4}; 
-        *Vector<Integer> v = new Vector(); 
-        *Hashtable<Integer, String> h = new Hashtable(); 
+        -int arr[] = new int[] {1, 2, 3, 4}; 
+        -Vector<Integer> v = new Vector(); 
+        -Hashtable<Integer, String> h = new Hashtable(); 
         
-Adding element
+-Adding element
         v.addElement(1); 
         h.put(1,"geeks");
         
-Accessing first element of array, vector and hashtable 
+-Accessing first element of array, vector and hashtable 
         System.out.println(arr[0]); 
         System.out.println(v.elementAt(0)); 
         System.out.println(h.get(1));          
@@ -29,7 +29,7 @@ Accessing first element of array, vector and hashtable
 3. Most of the ‘Vector’ methods are final, meaning we cannot extend the ’Vector’ class to implement a similar kind of Collection.
 ```
 Advantages of Collection Framework:
- *Consistent API : The API has a basic set of interfaces like Collection, Set, List, or Map. All classes (ArrayList, LinkedList, Vector, etc) that implement these interfaces have some common set of methods.
- *Reduces programming effort: A programmer doesn’t have to worry about the design of Collection, and he can focus on its best use in his program.
- *Increases program speed and quality: Increases performance by providing high-performance implementations of useful data structures and algorithms.
+ -Consistent API : The API has a basic set of interfaces like Collection, Set, List, or Map. All classes (ArrayList, LinkedList, Vector, etc) that implement these interfaces have some common set of methods.
+ -Reduces programming effort: A programmer doesn’t have to worry about the design of Collection, and he can focus on its best use in his program.
+ -Increases program speed and quality: Increases performance by providing high-performance implementations of useful data structures and algorithms.
 
