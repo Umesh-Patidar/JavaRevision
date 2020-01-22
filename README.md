@@ -28,3 +28,8 @@ Accessing first element of array, vector and hashtable
 2. It was very difficult for programmers to write algorithms that can work for all kinds of Collections(Array, Vector or Hashtable).
 3. Most of the ‘Vector’ methods are final, meaning we cannot extend the ’Vector’ class to implement a similar kind of Collection.
 ```
+Advantages of Collection Framework:
+ *Consistent API : The API has a basic set of interfaces like Collection, Set, List, or Map. All classes (ArrayList, LinkedList, Vector, etc) that implement these interfaces have some common set of methods.
+ *Reduces programming effort: A programmer doesn’t have to worry about the design of Collection, and he can focus on its best use in his program.
+ *Increases program speed and quality: Increases performance by providing high-performance implementations of useful data structures and algorithms.
+
