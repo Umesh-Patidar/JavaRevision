@@ -9,18 +9,18 @@ Before Collection Framework (or before JDK 1.2) was introduced, the standard met
 # Example
 
 - Declaration
-        - int arr[] = new int[] {1, 2, 3, 4}; 
-        - Vector<Integer> v = new Vector(); 
-        - Hashtable<Integer, String> h = new Hashtable(); 
+        1. int arr[] = new int[] {1, 2, 3, 4}; 
+        2. Vector<Integer> v = new Vector(); 
+        3. Hashtable<Integer, String> h = new Hashtable(); 
         
 - Adding element
-        v.addElement(1); 
-        h.put(1,"geeks");
+        1. v.addElement(1); 
+        2. h.put(1,"geeks");
         
 - Accessing first element of array, vector and hashtable 
-        System.out.println(arr[0]); 
-        System.out.println(v.elementAt(0)); 
-        System.out.println(h.get(1));          
+        1. System.out.println(arr[0]); 
+        2. System.out.println(v.elementAt(0)); 
+        3. System.out.println(h.get(1));          
 
 # Drawbacks
 1. None of these collections (Array, Vector or Hashtable) implement a standard member access interface.
