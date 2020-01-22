@@ -34,4 +34,6 @@ Before Collection Framework (or before JDK 1.2) was introduced, the standard met
  - Reduces programming effort: A programmer doesn’t have to worry about the design of Collection, and he can focus on its best use in his program.
  
  - Increases program speed and quality: Increases performance by providing high-performance implementations of useful data structures and algorithms.
+ 
+ ![Collection Architechture](/home/user/Desktop/Java-Collection-interfaces-and-concrete-classes.jpg)
 
